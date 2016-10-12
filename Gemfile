@@ -22,6 +22,7 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0', group: :doc
+
 gem 'faraday'
 
 # Use ActiveModel has_secure_password
@@ -46,3 +47,4 @@ group :development do
   gem 'spring'
 end
 
+gem 'dotenv-rails', :groups => [:development, :test]
